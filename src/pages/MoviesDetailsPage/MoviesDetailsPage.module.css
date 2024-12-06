@@ -1,0 +1,26 @@
+.MainBox {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.PosterImg {
+    width: 250px;
+    height: 400px;
+}
+
+.SecondBox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.GoBack {
+    width: 80px;
+    height: 30px;
+}
+
+.DetailsBox {
+    padding-top: 50px;
+    padding-left: 50px;
+}

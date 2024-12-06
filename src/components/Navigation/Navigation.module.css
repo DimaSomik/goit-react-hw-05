@@ -1,0 +1,12 @@
+.Header {
+    top: 0;
+    padding: 15px;
+    padding-left: 30px;
+    background-color: rgb(208, 207, 207);
+    width: 100vw;
+}
+
+.Navigation {
+    display: flex;
+    gap: 10px;
+}
