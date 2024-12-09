@@ -24,3 +24,15 @@
     padding-top: 50px;
     padding-left: 50px;
 }
+
+.CastReviewsBox {
+    padding: 10px;
+    padding-top: 0;
+}
+
+.CastReviewsLinks {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
