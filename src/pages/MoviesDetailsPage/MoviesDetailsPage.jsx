@@ -33,6 +33,8 @@ const MoviesDetailsPage = () => {
         getData();
     }, [params.movieId])
 
+    console.log(movie)
+
     return (
         <>
         {(movie) ? (
@@ -55,7 +57,10 @@ const MoviesDetailsPage = () => {
 
                     <div>
                         <h4>Genres</h4>
-                        <p>{movie.genres[0].name}, {movie.genres[1].name}</p>
+                        <div className={css.GenresBox}>
+                        {movie.genres.length > 0 && <p>{movie.genres[0].name}</p>}
+                        {movie.genres.length > 1 && <p>{movie.genres[1].name}</p>}
+                        </div>
                     </div>
                 </div>
             </div>
